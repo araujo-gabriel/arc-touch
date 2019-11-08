@@ -17,3 +17,5 @@ Swagger - http://localhost:5000
 
 
 ## You can check it online by accessing https://arctouch-movies.azurewebsites.net
+
+PR: https://github.com/araujo-gabriel/arc-touch/pull/1
