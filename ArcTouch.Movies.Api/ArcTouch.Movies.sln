@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchTouch.Movies.API", "ArchTouch.Movies.API\ArchTouch.Movies.API.csproj", "{3B5A7269-C9A0-4AAB-A5A5-CE027628B321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcTouch.Movies.Domains", "ArcTouch.Movies.Domains\ArcTouch.Movies.Domains.csproj", "{0AB4A40C-77FA-4425-B86B-1EA6B67A3443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcTouch.Movies.Infrastructure", "ArcTouch.Movies.Infrastructure\ArcTouch.Movies.Infrastructure.csproj", "{9FC3182F-E611-43D1-B2A8-5522BAC4BE58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcTouch.Movies.Services", "ArcTouch.Movies.Services\ArcTouch.Movies.Services.csproj", "{C57DA883-8A30-40CC-AEE3-D0BB77373578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArcTouch.Movies.IOC", "ArcTouch.Movies.IOC\ArcTouch.Movies.IOC.csproj", "{4A52F84B-D88F-4F5D-8070-00A40AA9D4BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B5A7269-C9A0-4AAB-A5A5-CE027628B321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B5A7269-C9A0-4AAB-A5A5-CE027628B321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B5A7269-C9A0-4AAB-A5A5-CE027628B321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B5A7269-C9A0-4AAB-A5A5-CE027628B321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB4A40C-77FA-4425-B86B-1EA6B67A3443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB4A40C-77FA-4425-B86B-1EA6B67A3443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB4A40C-77FA-4425-B86B-1EA6B67A3443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB4A40C-77FA-4425-B86B-1EA6B67A3443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FC3182F-E611-43D1-B2A8-5522BAC4BE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FC3182F-E611-43D1-B2A8-5522BAC4BE58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FC3182F-E611-43D1-B2A8-5522BAC4BE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FC3182F-E611-43D1-B2A8-5522BAC4BE58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C57DA883-8A30-40CC-AEE3-D0BB77373578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57DA883-8A30-40CC-AEE3-D0BB77373578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57DA883-8A30-40CC-AEE3-D0BB77373578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57DA883-8A30-40CC-AEE3-D0BB77373578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A52F84B-D88F-4F5D-8070-00A40AA9D4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A52F84B-D88F-4F5D-8070-00A40AA9D4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A52F84B-D88F-4F5D-8070-00A40AA9D4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A52F84B-D88F-4F5D-8070-00A40AA9D4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {357AFA09-6E67-4C6E-BEE2-60DF231AAF27}
+	EndGlobalSection
+EndGlobal
