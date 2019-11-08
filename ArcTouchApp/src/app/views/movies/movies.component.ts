@@ -38,10 +38,12 @@ export class MoviesComponent implements OnInit, AfterViewInit, OnDestroy {
   }
 
   goBack() {
+    this.searchText = '';
     this.getMovies(this.paginator.page - 1);
   }
 
   goFoward() {
+    this.searchText = '';
     this.getMovies(this.paginator.page + 1);
   }
 
