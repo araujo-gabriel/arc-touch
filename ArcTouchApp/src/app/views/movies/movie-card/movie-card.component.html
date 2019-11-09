@@ -1,0 +1,27 @@
+<mat-card class="movies-card">
+  <mat-card-header>
+    <mat-card-title>{{movie.name}}</mat-card-title>
+    <mat-card-subtitle>Lançamento {{movie.releaseDate | date : 'dd-MM-yyyy'}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image [src]="getImage()">
+  <mat-card-content style="text-align: center;" *ngIf="hasDetails && movie.details">
+    <p>
+      {{movie.details.overview ? movie.details.overview :'Ops, não encontramos nenhum overview para esse filme.'}}
+    </p>
+
+    <mat-chip-list style="text-align: center;">
+      <mat-chip *ngFor="let genre of movie.details.genres" class="badge-manager" color="primary" selected>
+        {{ genre.name}}
+      </mat-chip>
+    </mat-chip-list>
+
+  </mat-card-content>
+  <mat-card-actions style="text-align: center;">
+    <button-loading *ngIf="!hasDetails" [loading]="isLoading" color="accent" (click)="getDetails()" style="width: 15%">
+      Ver mais
+    </button-loading>
+    <button mat-button class="button-loading" *ngIf="hasDetails" color="accent" (click)="hide()" style="width: 15%">Ver
+      menos
+    </button>
+  </mat-card-actions>
+</mat-card>

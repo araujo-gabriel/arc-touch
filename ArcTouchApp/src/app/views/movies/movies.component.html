@@ -1,0 +1,33 @@
+<div class="scrollable" [perfectScrollbar]>
+  <section class="home-section section-intro text-center">
+    <div class="container">
+      <span class="egret">Arc Touch</span>
+      <h1>Lista de Filmes</h1>
+    </div>
+  </section>
+  <section id="demos" class="home-section section-demos">
+    <div class="container">
+      <div class="mb-1" fxLayout="row" fxLayoutAlign="center center">
+        <mat-form-field style="width:50%">
+          <input type="text" autocomplete="off" [(ngModel)]="searchText" matInput placeholder="Buscar" />
+        </mat-form-field>
+      </div>
+      <div class="mb-1" fxLayout="row" fxLayoutAlign="center center">
+        <button [disabled]="!paginator || paginator.page === 1" (click)="goBack()" class="mr-1" mat-fab>
+          <mat-icon>navigate_before</mat-icon>
+        </button>
+        <button [disabled]="!paginator || paginator.page === paginator.totalPages" (click)="goFoward()" class="ml-1"
+          mat-fab>
+          <mat-icon>navigate_next</mat-icon>
+        </button>
+      </div>
+      <div fxLayout="row wrap">
+
+        <div *ngFor="let movie of paginator.data | filter: searchText" fxFlex=" 100" fxFlex.gt-sm="33" fxFlex.sm="33">
+
+          <app-movie-card [movie]="movie"></app-movie-card>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

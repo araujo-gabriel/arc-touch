@@ -1,10 +1,5 @@
 # Arc Touch - Movies
 
-Tecnologies Used:
-## ASP.NET Core
-## ANGULAR 8
-## MATERIAL DESIGN
-
 Requirements:
 ## Install Node.js
 ## Install .Net Core 2.2
@@ -22,7 +17,5 @@ Swagger - http://localhost:5000
 
 
 ## You can check it online by accessing https://arctouch-movies.azurewebsites.net
-
-Github Repository:https://github.com/araujo-gabriel/arc-touch/
 
 PR: https://github.com/araujo-gabriel/arc-touch/pull/1
